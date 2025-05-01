@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Media Query</title>
+</head>
+<body>
+    <header>
+        <h1>Sobre Mussarela</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Curiosidades</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Uma Jornada Histórica Saborosa</h2>
+            <p>Originária da região da Campânia, no sul da Itália, a mussarela surgiu por volta do século XII, inicialmente produzida com leite de búfala. O termo "mussarela" foi registrado pela primeira vez em 1570, no livro de receitas de Bartolomeo Scappi, chef da corte papal . Com a chegada dos imigrantes italianos ao Brasil entre os séculos XIX e XX, esse queijo conquistou o paladar brasileiro e se tornou um ingrediente essencial em diversas receitas nacionais </p>
+
+            <h2>Versatilidade na Culinária</h2>
+            <p>A mussarela é conhecida por sua textura macia e elástica, além de seu sabor suave. Sua capacidade de derreter uniformemente a torna ideal para pratos como pizzas, lasanhas, sanduíches e até mesmo sobremesas. No Brasil, adaptações locais incorporaram recheios de requeijão cremoso e outros sabores especiais, ampliando ainda mais suas possibilidades gastronômicas.</p>
+            
+            <h2>Produção e Variedades</h2>
+            <p>Tradicionalmente feita com leite de búfala, a mussarela passou a ser produzida com leite de vaca devido à sua popularidade global. No Brasil, a produção muitas vezes utiliza leite cru, resultando em variações regionais e impedindo uma padronização nacional . A técnica de "massa filada", que envolve esticar e aquecer a coalhada, confere ao queijo sua textura característica.</p>
+            
+            <h2>Benefícios Nutricionais</h2>
+            <p>Além de saborosa, a mussarela é uma fonte rica de nutrientes essenciais:</p>
+
+            <section class="imagem" id="img01">
+                <ul class="imgul">
+                    <li><p>Proteínas de alta qualidade: essenciais para o crescimento e reparação muscular.</p></li>
+                    <li><p>Cálcio: fundamental para a saúde óssea e dentária.</p>​</li>
+                    <li><p>Vitaminas: contém vitaminas A, B2 (riboflavina), B12, D e K2, que desempenham papéis vitais no metabolismo, sistema nervoso e saúde cardiovascular .</p></li>
+                    <li><p>Probióticos: quando feita com culturas vivas, pode contribuir para a saúde intestinal .</p>​</li>
+                </ul>
+            </section>
+
+            <p>No entanto, é importante consumir com moderação, especialmente as versões com alto teor de gordura e sódio, para manter uma dieta equilibrada.</p>
+
+            <h2>A Mussarela no Brasil</h2>
+            <p>No Brasil, a mussarela é o queijo mais consumido, presente em uma variedade de pratos que refletem a diversidade cultural do país. Sua adaptação às preferências locais resultou em versões únicas, como aquelas recheadas com requeijão, demonstrando a capacidade do queijo de se reinventar e continuar encantando paladares.</p>
+
+        <aside>
+            <h3>Fonte tirada de</h3>
+            <ul>
+                <li>
+                    <a href="https://lactvit.com.br/7-curiosidades-sobre-o-queijo-mais-consumido-do-brasil-o-queijo-mussarela/?utm_source=chatgpt.com" target="_blank">Lactvit</a>
+                </li>
+                <li>
+                    <a href="https://www.formasparaqueijo.com/queijo-mussarela-historia-origem-e-propriedades/?utm_source=chatgpt.com" target="_blank">Formas de Queijo</a>
+                </li>
+                <li>
+                    <a href="https://pt.wikipedia.org/wiki/Mozarela?utm_source=chatgpt.com" target="_blank">Wikipedia</a>
+                </li>
+                <li>
+                    <a href="https://www.recofran.com/single-post/2016/11/14/Queijo-Mussarela?utm_source=chatgpt.com" target="_blank">Recofran</a>
+                </li>
+                <li>
+                    <a href="https://listonic.com/p/pt-br/nutri%C3%A7%C3%A3o/mussarela?utm_source=chatgpt.com" target="_blank">Listonic</a>
+                </li>
+                <li>
+                    <a href="https://www.scala.com.br/blog/conheca-os-beneficios-do-queijo-para-a-saude/?utm_source=chatgpt.com" target="_blank">Scala</a>
+                </li>
+            </ul>
+        </aside>
+    </article>
+    </main>
+    <footer>
+        <p>Site criado por <abbr title="Eliel Andre De Queiroz"><a href="https://github.com/ElielAndreDeQueiroz" target="_blank">E. A. De Queiroz</a></abbr>.</p>
+    </footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
