@@ -39,7 +39,7 @@ i#burguer {
 }
 
 i#burguer:hover {
-    background-color: white;
+    background-color: var(--cor2);
     color: black;
 }
 
